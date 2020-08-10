@@ -53,6 +53,7 @@ function App() {
       isCompleted: false,
     },
   ]);
+  // 밑에 pass in하는 text는 위의 text하고 같은 놈임. 그냥 내 맘대로 적으면 추가는 되는데 글씨가 안 보임
   const addTodo = (text) => {
     const NewTodos = [...todos, { text }];
     setTodos(NewTodos);
